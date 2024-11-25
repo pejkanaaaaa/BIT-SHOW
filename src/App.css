@@ -1,38 +1,8 @@
-.App {
-  text-align: center;
+body {
+  height: 100%;
+  margin: 0; /* Removes default body margin */
+  background-image: url("https://files.oaiusercontent.com/file-HzWGL3zYYbTNPdXWEhBErQ?se=2024-11-25T11%3A41%3A06Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D047887fe-86a5-4ee0-8899-33b9cca7e86c.webp&sig=Y31U250EBVGpN7sPDYBKDfPfCeCsAX/Y1ylqFcLLH5A%3D");
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
